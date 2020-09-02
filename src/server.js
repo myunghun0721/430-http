@@ -7,7 +7,7 @@ const imageHandler = require('./imageResponses.js');
 const port = process.env.PORT || process.env.NODE_PORT || 3000;
 
 const onReqest = (request, response) => {
-  Console.log(request.url);
+  console.log(request.url);
 
   switch (request.url) {
     case '/':
@@ -38,4 +38,5 @@ const onReqest = (request, response) => {
 };
 
 http.createServer(onReqest).listen(port);
-Console.log(`Listening on 127.0.0.1: ${port}`);
+console.log(`Listening on 127.0.0.1: ${port}`);
+
