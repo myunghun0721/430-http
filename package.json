@@ -1,0 +1,26 @@
+{
+  "name": "simple-http-assignment-start-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Test complete"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myunghun0721/430-http.git"
+  },
+  "author": "Hun Choi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myunghun0721/430-http/issues"
+  },
+  "homepage": "https://github.com/myunghun0721/430-http#readme",
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
